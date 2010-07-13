@@ -1,8 +1,10 @@
 {
-  "id": "syncbling@philikon.de",
-  "fullName": "Sync Bling",
-  "description": "Some UI bling for Firefox Sync",
-  "version": "1.0",
-  "author": "Philipp von Weitershausen",
-  "dependencies": ["jetpack-core"]
+    "description": "Some UI bling for Firefox Sync", 
+    "author": "Philipp von Weitershausen", 
+    "version": "1.0", 
+    "dependencies": [
+        "jetpack-core"
+    ], 
+    "fullName": "Sync Bling", 
+    "id": "jid0-6NXyqDJvxQLttiwDNdJ9AaBzDKQ"
 }
