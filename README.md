@@ -10,9 +10,12 @@ Known issues:
 * If you want to build an XPI from this extension, the directory name
   needs to be lower case due to a bug in the JetPack SDK.
 
-* You also need to delete the 'id' field in 'manifest.json' if you want to run it or build an XPI.
+* You also need to delete the 'id' field in 'manifest.json' if you
+  want to run it or build an XPI.
 
-* Right now widgets are fixed to 24 by 24 pixels, so pretty much only
-  icons make sense there right now.  Hopefully a future version of the
-  JetPack SDK will provide more flexible widgets and perhaps even
-  panels that open when you click on widets.
+* Widgets are fixed width which means if you want to display short messages
+  (e.g. errors) you almost always occupy either too little or too much space.
+
+* Perhaps a future version of the JetPack SDK will provide panels that
+  open when you click on widets, then we can move all the buttons and
+  error messages into a popup panel.
