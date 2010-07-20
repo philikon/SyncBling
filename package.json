@@ -1,7 +1,7 @@
 {
     "description": "Some UI bling for Firefox Sync", 
     "author": "Philipp von Weitershausen", 
-    "version": "1.0", 
+    "version": "1.1pre",
     "dependencies": [
         "jetpack-core"
     ], 
